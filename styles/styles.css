@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --branco-azulado: hsl(225, 15%, 54%);
+    --violeta: hsl(245, 75%, 52%);
+    /*---- S E C U N D A R I A S ---*/
+    --branco-azulado2: hsl(225, 100%, 98%);
+    --azul-desaturado: hsl(224, 23%, 55%);
+    --azul-escuro: hsl(223, 47%, 23%);
+    /*---- F O N T E S ----*/
+    --fonte-principal: 'Red Hat Display', sans-serif; /*Weights: 500, 700, 900*/
+    
+}
+
+body {
+    background-color: var(--azul-desaturado);
+    height: 100%;
+}
+
+.corpo {
+    display: flex;
+    justify-content: center;
+    padding: 5% 0 3% 0%;
+}
+
+#container {
+    height: 450px;
+    width: 300px;
+    background-color: var(--branco-azulado2);
+    border-radius: 10px;
+}
+
+.image__header {
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container__textos {
+    text-align: center;
+}
+
+.container__textos__titulo {
+    font-family: var(--fonte-principal);
+    font-weight: 900;
+    font-size: 20px;
+    color: var(--azul-escuro);
+    padding: 8% 0 0 0;
+}
+
+.container__textos__texto {
+    padding: 6% 8%;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--branco-azulado);
+}
+
+/* V A L O R E S */
+
+.container__valores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--branco-azulado2);
+    width: 200px;
+    padding: 10px 35px 20px 35px;
+}
+
+.container__valores__plano {
+    font-family: var(--fonte-principal);
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--azul-escuro);
+}
+
+
+.container__valores__valor {
+    font-family: var(--fonte-principal);
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--branco-azulado);
+}
+
+.container__valores__butao {
+    padding: 0 0 0 10%;
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--azul-escuro);
+}
+
+.container__valores__valor2 {
+    padding: 0 0 0 3%;
+}
+
+.botoes__pagamento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__botao__pagamento {
+    background-color: var(--violeta);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px;
+    width: 240px; height: 30px;
+    color: var(--branco-azulado2);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.container__botao__cancelar {
+    background-color: var(--branco-azulado2);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px;
+    width: 240px; height: 30px;
+    color: var(--azul-escuro);
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 2% 0;
+}
+
+.icone {
+    height: 40px;
+    width: 40px;
+}
+
+.attribution {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 13px;
+    color: var(--azul-escuro);
+    text-transform: uppercase;
+}
+
+a{
+    color: var(--violeta);
+}
+
+a:hover {
+    color: var(--azul-escuro);
+}
